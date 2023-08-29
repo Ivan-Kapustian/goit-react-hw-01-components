@@ -1,11 +1,10 @@
-import { UserDescr } from 'components/UserDescr/UserDescr';
-import { UserStats } from 'components/UserStats/UserStats';
+import { Profile } from 'components/task1/Profile/Profile';
+
 import user from 'data/user';
 export const App = () => {
   return (
     <div>
-      <UserDescr user />
-      <UserStats stats={user.stats} />
+      <Profile user={user} />
     </div>
   );
 };
