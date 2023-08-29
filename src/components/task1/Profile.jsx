@@ -1,4 +1,4 @@
-import css from 'components/task1/Profile/Profile.module.css';
+import css from 'components/task1/Profile.module.css';
 import PropTypes from 'prop-types';
 
 export const Profile = ({ user }) => {
